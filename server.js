@@ -1,0 +1,2 @@
+const mongoose=require("mongoose");const express=require("express");const routes=require("./routes");const PORT=process.env.PORT||3004;const app=express();app.use(express.urlencoded({extended:!0}));app.use(express.json());if(process.env.NODE_ENV==="production"){app.use(express.static("client/build"))}
+app.use(routes);mongoose.connect(process.env.MONGODB_URI||"mongodb://localhost/googlebooks",{useCreateIndex:!0,useNewUrlParser:!0});app.listen(PORT,()=>console.log(`API server now listening to port ${PORT}!`))

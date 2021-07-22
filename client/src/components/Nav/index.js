@@ -1,0 +1,3 @@
+import React,{Component}from "react";import{Link}from "react-router-dom";import "./style.css";function Nav(){return(<ul className="nav nav-tabs"><li className="nav-item"><Link to="/" className={window.location.pathname==="/"?"nav-link active":"nav-link"}>Googly Books</Link></li><li className="nav-item"></li><li className="nav-item"><Link
+to="/saved"
+className={window.location.pathname==="/saved"?"nav-link active":"nav-link"}>Saved books</Link></li></ul>)};export default Nav
