@@ -6,7 +6,7 @@ In this activity, you'll create a new React-based Google Books Search app. This 
 ## Description
 uses an google books api to pull book data to sort, view, and save your book searches. <br />
 
-![alt text](http://url/to/img.png)
+![alt text](https://raw.githubusercontent.com/ryokoba689/googly-books-homework/main/googlesearch.PNG)
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
